@@ -1,4 +1,23 @@
-git clone
+git clone <link do repositorio>
 
 git status
+
+git add . <nomedo arquivo ou "." para adicionar todos os arquivos> 
+
+git commit -m "<comments>"
+
+git push origin <nome da branch>
+
+
+: Iniciando um novo repositorio a partir do file system
+
+git init <nome do repositorio(nome de uma pasta que sera criada ou reutilizada)>
+
+git remote add origin git@github.com/marcelocastilho/github-course
+
+git remote add origin  https://github.com/marcelocastilho/github-course.git
+
+git push origin master
+
+git remote -v: Verifica o status do repositorio remoto
 
